@@ -52,7 +52,7 @@ Our system is a full-stack solution comprised of two main components:
 ### 6. Tech Stack
 
 * **Firmware:** C, Zephyr RTOS, nRF52 SDK, BLE
-* **Application:** React Native, TypeScript, BLE/GATT
+* **Application:** React Native, TypeScript
 * **Hardware:** nRF52840, 9-axis IMU (BMI270 + BMM150), SPI Flash
 
 ### 7. My Role (Wristband Development Lead)
@@ -61,9 +61,9 @@ As the Wristband Development Lead, my primary responsibilities are on the embedd
 
 * Designing and implementing the Zephyr RTOS application.
 * Defining the custom BLE GATT profile for the data-transfer state machine.
-* Implementing the real-time data sampling from the IMU.
 * Managing the "log-then-transfer" data pipeline by writing/reading from external SPI flash.
 * Developing and debugging the device-side logic for calibration and synchronization.
+* My app-side work involved implementing the BLE connection management and developing the core data-processing algorithms for aligning the multi-sensor data streams (time-sync) and reconstructing the barbell path.
 
 ### 8. Project Status
 
